@@ -3,6 +3,7 @@ import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 import Slide1 from '../slide1/Slide1';
+import Slide3 from '../slide3/Slide3';
 
 const slideOpts = {
   initialSlide: 0,
@@ -37,7 +38,7 @@ const Home: React.FC = () => {
             
           </IonSlide>
           <IonSlide>
-            <h1>Game Menú</h1>
+            <Slide3 />
           </IonSlide>
       </IonSlides>
       </IonContent>
